@@ -13,7 +13,7 @@ url = 'http://api.mojang.com/user/profile/' + UUID + '/name'
 
 attempts = 10
 
-for i in range (1000000000099999):
+while True:
 	time_str = time.strftime("%H:%M:%S")
 	time.sleep(0.05)
 	if time_str == dropTime:
